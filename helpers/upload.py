@@ -17,7 +17,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 async def upload_audio(client, message, file_loc):
 
     msg = await message.edit_text(
-        text="**Uploading extracted stream...**",
+        text="**Uploading Extracted Stream...**",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Progress", callback_data="progress_msg")]])
     )
@@ -42,13 +42,13 @@ async def upload_audio(client, message, file_loc):
             chat_id=message.chat.id,
             audio=file_loc,
             thumb=thumb,
-            caption="**@TroJanzHEX**",
+            caption="**@FlixBots**",
             title=title,
             performer=artist,
             duration=duration,
             progress=progress_func,
             progress_args=(
-                "**Uploading extracted stream...**",
+                "**Uploading Extracted Stream...**",
                 msg,
                 c_time
             )
@@ -65,7 +65,7 @@ async def upload_audio(client, message, file_loc):
 async def upload_subtitle(client, message, file_loc):
 
     msg = await message.edit_text(
-        text="**Uploading extracted subtitle...**",
+        text="**Uploading Extracted Subtitle...**",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Progress", callback_data="progress_msg")]])
     )
@@ -76,10 +76,10 @@ async def upload_subtitle(client, message, file_loc):
         await client.send_document(
             chat_id=message.chat.id,
             document=file_loc,
-            caption="**@TroJanzHEX**",
+            caption="**@FlixBots**",
             progress=progress_func,
             progress_args=(
-                "**Uploading extracted subtitle...**",
+                "**Uploading Extracted Subtitle...**",
                 msg,
                 c_time
             )
