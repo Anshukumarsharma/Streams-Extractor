@@ -5,33 +5,30 @@
 
 class Script(object):
 
-    START_MSG = """<b>Hello {},
+    START_MSG = """<b>Hello {}, Welcome To 𝗘𝗫𝗧𝗥𝗔𝗖𝗧 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧 🥳,
+I Can Extract Videos & Subtitles From Video Files.
+Send Me Any Video File & Extract Whatever You Desire.
+See /help For More Help On How To Use Me Correctly.
 
-I can extract audio and subtitles from video files.
-
-Send me any video file and extract what you want :).
-
-See <i>help</i> for more details.
-
-© @TroJanzHEX</b>"""
+© @FlixBots</b>"""
 
 
-    HELP_MSG = """<b>Hai, Follow these Steps..</b>
+    HELP_MSG = """<b>Hello, Follow These Simple Steps Below..</b>
 
-🌀 <i>Send me any Valid video file.</i>
+➠ <b>Send Me Any Valid Video File.</b>
 
-🌀 <i>Click Download and Process button to download the file to my server</i>
+➠ <b>Click Download & Process Button To Download The File To My Server</b>
 
-🌀 <i>Wait till I process the video!</i>
+➠ <b>Wait Till Processing Is Completed!</b>
 
-🌀 <i>Now select the stream you need to extract!</i>
+➠ <b>Now Select The Stream You Need To Extract!</b>
 
-<b>© @TroJanzHEX</b>"""
+<b>© @FlixBots</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Streams Extractor Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : 𝗘𝗫𝗧𝗥𝗔𝗖𝗧 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @FlixBots    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
