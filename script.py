@@ -11,7 +11,7 @@ Send Me Any Video File & Extract Whatever You Desire.
 
 See /help For More Help On How To Use Me Correctly.
 
-© @FlixBots</b>"""
+© @Anshu88o</b>"""
 
 
     HELP_MSG = """<b>Hello, Follow These Simple Steps Below..</b>
@@ -24,12 +24,12 @@ See /help For More Help On How To Use Me Correctly.
 
 ➠ <b>Now Select The Stream You Need To Extract!</b>
 
-<b>© @FlixBots</b>"""
+<b>© @Anshu888o</b>"""
 
 
     ABOUT_MSG = """⭕️<b>My Name : 𝗘𝗫𝗧𝗥𝗔𝗖𝗧 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧</b>
 
-⭕️<b>Creater :</b> @FlixBots    
+⭕️<b>Creater :</b> @Anshu888o    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
