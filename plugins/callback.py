@@ -24,7 +24,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("HELP", callback_data="help_data"),
                 InlineKeyboardButton("ABOUT", callback_data="about_data")],
-            [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/FlixBots")]
+            [InlineKeyboardButton("⭕️ JOIN OUR MOVIES REQUEST GROUP ⭕️", url="https://t.me/MOVIES_anD_sErIeS_requestiing")]
         ])
 
         await query.message.edit_text(
@@ -40,7 +40,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("BACK", callback_data="start_data"),
                 InlineKeyboardButton("ABOUT", callback_data="about_data")],
-            [InlineKeyboardButton("⭕️ SUPPORT BOT ⭕️", url="https://t.me/FlixHelpBot")]
+            [InlineKeyboardButton("⭕️ JOIN OUR MOVIES REQUEST GROUP ⭕️", url="https://t.me/MOVIES_anD_sErIeS_requestiing")]
         ])
 
         await query.message.edit_text(
@@ -56,7 +56,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("BACK", callback_data="help_data"),
                 InlineKeyboardButton("START", callback_data="start_data")],
-            [InlineKeyboardButton("SOURCE CODE", url="https://github.com/TroJanzHEX/Streams-Extractor")]
+            [InlineKeyboardButton("JOIN OUR MOVIES REQUEST GROUP", url="https://t.me/MOVIES_anD_sErIeS_requestiing")]
         ])
 
         await query.message.edit_text(
