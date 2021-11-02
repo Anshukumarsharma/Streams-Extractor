@@ -24,7 +24,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/FlixBits")
+                        "⭕️ JOIN OUR MOVIES REQUEST GROUP ⭕️", url="https://t.me/MOVIES_anD_sErIeS_requestiing")
                 ]
             ]
         ),
@@ -45,7 +45,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ SUPPORT BOT ⭕️", url="https://t.me/FlixHelpBot")
+                        "⭕️ JOIN OUR MOVIES REQUEST GROUP ⭕️", url="https://t.me/MOVIES_anD_sErIeS_requestiing")
                 ]
             ]
         ),
@@ -66,7 +66,7 @@ async def about(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Streams-Extractor")
+                        "JOIN OUR MOVIES REQUEST GROUP", url="https://t.me/MOVIES_anD_sErIeS_requestiing")
                 ]
             ]
         ),
